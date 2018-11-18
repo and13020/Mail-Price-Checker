@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
 
 // Opens server
-app.listen(5000, function(req, res) {
+app.listen(PORT, function(req, res) {
     console.log("The server is listening on port 5000")
 })
 
